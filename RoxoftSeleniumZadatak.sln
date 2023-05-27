@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoxoftSeleniumZadatak", "RoxoftSeleniumZadatak\RoxoftSeleniumZadatak.csproj", "{B6EEC654-3F3D-4D76-A919-A730EC0FE684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD0DB221-9CB5-4B85-94D2-DE6417BB3A35}
+	EndGlobalSection
+EndGlobal
