@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoxoftSeleniumZadatak", "RoxoftSeleniumZadatak\RoxoftSeleniumZadatak.csproj", "{B6EEC654-3F3D-4D76-A919-A730EC0FE684}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadatak3", "Zadatak3\Zadatak3.csproj", "{1B7DF53D-307B-46F6-85F7-4CA789F735C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6EEC654-3F3D-4D76-A919-A730EC0FE684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7DF53D-307B-46F6-85F7-4CA789F735C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7DF53D-307B-46F6-85F7-4CA789F735C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7DF53D-307B-46F6-85F7-4CA789F735C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7DF53D-307B-46F6-85F7-4CA789F735C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
