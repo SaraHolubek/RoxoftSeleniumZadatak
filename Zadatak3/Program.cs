@@ -24,6 +24,7 @@ namespace Zadatak3
             Console.WriteLine("Otvoren URL");
 
         }
+
         [Test]
         public void ExecuteTest()
         {
