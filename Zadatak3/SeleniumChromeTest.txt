@@ -1,0 +1,35 @@
+
+
+Prije svega instalacija dodatnih packova kroz NuGet - tocnije Selenium WebDrivera i ChromeDrivera je bila izuzetno lagana,
+VS je odradio vecinu posla, sve se rijesi u nekoliko klikova.
+Takoder instalacija NUnita i Test adaptera je bila jednako jednostavna.
+
+Prvi dio koda sam napisala direktno u Main metodi, ali sam kasnije kroz tutoriale vidjela nacin kako rascjepkati
+svaku metodu zasebno sto mi se cinilo puno zanimljivijim.
+
+Metode su vrlo jednostavne, ne zahtjevaju nista previse. Izabrala sam testirati stranicu Ljekarna.hr.
+Rascjepkane su u nekoliko dijelova, tocnije u par procesa koje one izvrsavaju.
+
+Prva metoda je Initialize, sto bi predstavljalo samo navigiranje na odabranu web stranicu. Veoma jednostavan pristup URL-u putem koda.
+Za svaku metodu sam dodala ConsoleWriteLine radi preglednosti u Output-u.
+
+Iduca metoda bi bila ExecuteTest, sto bi znacilo izvrsavanje zadatka tj. pronalazak zeljenog elementa po atributu koji
+takoder mozemo sami birati (Id, ClassName, Name, itd.), nakon pronalaska elementa proces se nastavlja tako sto biram
+u ovom slucaju koju cu rijec upisati u trazilicu. Nakon toga slijedi ConsoleWriteLine s porukom da je test izvrsen.
+
+Zadnja metoda je najednostavnija od svih, jer ona samo poziva na zatvaranje browsera nakon uspjesno izvrsene prethodne metode.
+
+Naime, da bi svaka ova metoda zasebno funkcionirala mora imati ispred sebe naveden atribut koji se vodi po:
+OpenQA.Selenium;, OpenQA.Selenium.Chrome;, NUnitFramework;.
+
+Pomocu tih atributa se poziva odredena metoda, stoga ispred Initialize moramo staviti [SetUp] - laicki bi rekli podesavanje stranice iliti navigiranje.
+Nakon toga kako bi najavili da pozivamo metodu koja izvrsava test, stavljamo [Test] atribut, te na kraju kako bismo pozvali metodu zatvaranja browsera
+stavljamo atribut [TearDown] - sto i sama rijec objasnjava.
+
+Sve skupa mi se cinilo dosta jednostavno, u iducem cu koraku pokusati testirati nesto kompliciranije.
+Brzo sam se snasla, lako je pamtljivo i razumila sam kako sve u pozadini funkcionira.
+
+
+
+
+
